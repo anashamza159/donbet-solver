@@ -1,0 +1,2 @@
+#!/data/data/com.termux/files/usr/bin/bash
+exec chromium-browser --headless=new --no-sandbox --disable-gpu --disable-dev-shm-usage --disable-software-rasterizer --disable-blink-features=AutomationControlled --remote-debugging-port=9222 --remote-debugging-address=127.0.0.1 --user-agent="Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36" about:blank
